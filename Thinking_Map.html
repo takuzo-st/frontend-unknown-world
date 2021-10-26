@@ -5,20 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Unknown World</title>
-    <meta
-      name="description"
-      content="This site is a test site. I will post new knowledge"
-    />
-    <link rel="icon" href="images/favicon.png" />
-    <link rel="stylesheet" href="styles/loader.css" />
+    <meta name="description" content="This site is a test site. I will post new knowledge">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="styles/article.scss">
     <script src="scripts/vendors/pace.js"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&family=Noto+Sans+JP:wght@500&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/vendors/bootstrap-reboot.css" />
     <link rel="stylesheet" href="styles/vendors/swiper.min.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/article.css" />
   </head>
   <body>
     <div id="global-container">
@@ -34,8 +28,9 @@
             </div>
             <nav class="header__nav">
               <ul class="header__ul">
-                <li class="header__li item"><a href="#">Service</a></li>
-                <li class="header__li item"><a href="#">Company</a></li>
+                <li class="header__li item"><a href="#">Home</a></li>
+                <li class="header__li item"><a href="#">Article</a></li>
+                <li class="header__li item"><a href="#"></a></li>
                 <li class="header__li item">
                   <a class="btn filled" href="#">Contact</a>
                 </li>
@@ -47,30 +42,9 @@
               <span></span>
             </button>
           </div>
+
         </header>
         <div id="content">
-          <div class="hero">
-            <div class="swiper-container">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="hero__title">Enjoy Rich</div>
-                  <img src="images/image-1.jpg" alt="" />
-                </div>
-                <div class="swiper-slide">
-                  <div class="hero__title">Fantastic</div>
-                  <img src="images/image-2.jpg" alt="" />
-                </div>
-                <div class="swiper-slide">
-                  <div class="hero__title">Experience</div>
-                  <img src="images/image-3.jpg" alt="" />
-                </div>
-              </div>
-              <div class="hero__footer">
-                <img class="hero__downarrow" src="images/arrow.svg" />
-                <span class="hero__scrolltext">scroll</span>
-              </div>
-            </div>
-          </div>
           <div id="main-content">
             <aside class="side left">
               <div class="side__inner">
@@ -79,6 +53,33 @@
               </div>
             </aside>
             <main>
+              <section class="menu">            
+                <div class="menu_inner">
+                    <nav class="menu_list">
+                      <li class="menu_list item1">
+                        <a class="list1">
+                          <div span="home" href="#">Home</div>
+                        </a>
+                        <a class="list2">
+                          <div span="article" href="#">Article</div>
+                        </a>
+                        <a class="list3">
+                          <div span="home" href="#">Data Analysis</div>
+                        </a>
+                      </li>
+                    </nav>
+                </div>
+              </section>
+              <article class=article>
+                <h2 class=article_title>
+                  <span style="font-size: 30px; margin: 0 auto;">Book review: ”Thinking map of Emmanuel Todd”</span><br>
+                  </span>
+                </h2>
+                <p>&nbsp;&nbsp;Many people hope they can predict their future. I first knew a researcher who thought a predicting process. He’s Emmanuel Todd who is a French historian, anthropologist, demographer, sociologist and scientist. He publised “The final fall” and “The Diversity Of The World” and so on. this time, I introduce his predicting process written in ”Thinking map of Emmanuel Todd.”</p>
+                <p>&nbsp;&nbsp;The predicting process which he mentioned is divided 3 phases. First, he’s based on the empiricism, he collect numerous data. He makes facts for the importanc because he’s a empiricism of the Anglo-Saxon. Second, He conpares the data and his individual experience, history to confirm whether the data is valid and not to dissociate among them. Third, he predict artistically by the exercise of imagination from second phase. Those 3 phases are a predicting process.</p>
+                <p>To take an example, He went to Hungary which is a calm society in socialist countries but it was lesser developed and a nomal conutry. This fact is first phase of his predicting process. He has rgarded the communism as something great, so he accepted the fact which was difference compared to his imagination. This is a second phase. He says accepting abnomal things is insight. On third phase, he reached on one hypothesis that the Soviet Union will collapse. He says it need an original idea to have artistic aspects on the third phace. People who have an efficent brain can’t generate a new idea. Conversely, it is important to go abroad or to watch Sci-Fi to generate a unique idea by giving stimulation to the brain. The external stimulation is important to get out from thinkismend to go a nice place to think and try new things. Thank you for reading until the end.</p>
+                <button class="btn amazon" onclick="window.open('https://www.amazon.co.jp/dp/B08QRFQL8Z/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1')" target="_blank" rel="canonical">Amazon Book</button>
+              </article>
               <section class="travel">
                 <div class="travel__inner">
                   <div class="travel__img cover-slide">
@@ -94,20 +95,15 @@
                         <span class="purple">Travel</span>
                         <span>the world</span>
                       </div>
-                      <div class="travel__sub sub-title item">
-                        世界中を旅しよう
-                      </div>
+                      <div class="travel__sub sub-title item">世界中を旅しよう</div>
                       <div class="travel__description item">
                         <p>
-                          <link />Cureativity<link /><br />
-                          <link />Creer<link /><br />
-                          <link />Timing<link /><br />
-                          <a href="Thinking_Map.html">article Thinking Map</a
-                          ><br />
-                          <a
-                            href="https://docs.google.com/spreadsheets/d/1RvWBLGsJdYvU-K9VqcT7XXINt9EnYDxxdraqDAvhJGs/edit#gid=0"
-                            >集計シート</a
-                          >
+                          <link>Cureativity<link/><br/>
+                          <link>Creer<link/><br/>
+                          <link>Timing<link/><br/>
+                          <link>Thinking Map<link><br/>
+                          <a href="Thinking_Map.html">article Thinking Map</a><br/>
+                          <a href="https://docs.google.com/spreadsheets/d/1RvWBLGsJdYvU-K9VqcT7XXINt9EnYDxxdraqDAvhJGs/edit#gid=0">集計シート</a>
                         </p>
                         <p>あなたの望む宿がきっと見つかります。</p>
                       </div>
@@ -120,12 +116,8 @@
               </section>
               <section class="houses">
                 <div>
-                  <h2 class="main-title tween-animate-title">
-                    Find Your House
-                  </h2>
-                  <p class="sub-title tween-animate-title">
-                    お気に入りの宿泊先を見つけましょう
-                  </p>
+                  <h2 class="main-title tween-animate-title">Find Your House</h2>
+                  <p class="sub-title tween-animate-title">お気に入りの宿泊先を見つけましょう</p>
                 </div>
                 <div class="houses__inner">
                   <div class="houses__item">
@@ -190,9 +182,7 @@
               <section class="popular">
                 <div class="popular__header">
                   <h2 class="main-title tween-animate-title">Popular Place</h2>
-                  <p class="sub-title tween-animate-title">
-                    人気の観光地で宿泊先を見つけましょう
-                  </p>
+                  <p class="sub-title tween-animate-title">人気の観光地で宿泊先を見つけましょう</p>
                 </div>
                 <div class="popular__inner appear up">
                   <div class="popular__container">
@@ -222,7 +212,9 @@
                     </div>
                     <div class="popular__btn appear up">
                       <button class="btn cover-3d item">
-                        <span> 一覧から探す </span>
+                        <span>
+                          一覧から探す
+                        </span>
                       </button>
                     </div>
                   </div>
@@ -249,7 +241,9 @@
               <li class="footer__li item"><a href="#">Company</a></li>
               <li class="footer__li item"><a href="#">Sitemap</a></li>
             </ul>
-            <div class="footer__copyright item">&copy; Code Mafia</div>
+            <div class="footer__copyright item">
+              &copy; Code Mafia
+            </div>
           </nav>
         </footer>
       </div>
